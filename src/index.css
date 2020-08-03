@@ -1,0 +1,54 @@
+body{
+   position: relative;
+}
+
+html,
+body,
+#leafletMapid{
+  height:100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#leafletMapid{
+   z-index: 0;
+}
+
+.controlButtons{
+   position: absolute;
+   bottom: 50px;
+   right: 50px;
+   z-index: 10;
+}
+
+#randomMarker,
+#clearRandomMarkers{
+   width: 100%;
+   margin-bottom: 10px;
+}
+
+.activeArea{
+   position: absolute;
+   top: 10%;
+   left: 10%;
+   height: 50%;
+   width: 50%;
+   border: 2px solid black;
+   pointer-events: none;
+}
+
+
+.leaflet-container .leaflet-control-mouseposition {
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 5px #bbb;
+  padding: 0 5px;
+  margin:0;
+  color: #333;
+  font: 11px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+
+code{
+   background-color: lightgray;
+}

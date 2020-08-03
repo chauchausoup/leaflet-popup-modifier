@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title></title>
+
+      <!-- Load Leaflet from CDN -->
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+      integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+      crossorigin=""/>
+      <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+      integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+      crossorigin=""></script>
+
+
+      <!-- PopupMod Script and CSS -->
+      <link rel="stylesheet" href="./src/leaflet-popup-modifer.css">
+		<script src="./src/leaflet-popup-modifier.js" type="text/javascript" defer></script>
+		
+		
+      <!-- Project Script and CSS -->
+		<link rel="stylesheet" href="./src/index.css">
+      <script src="./src/index.js" type="text/javascript" defer></script>
+
+
+   </head>
+   <body>
+
+      <div id="leafletMapid" class="mapdiv"></div>
+      <div class="controlButtons">
+         <button type="button" name="button" id="submitMap">Submit</button>
+      </div>
+
+   <!--    <div class="controlButtons">
+         <button type="button" name="button" id="makeMarker">Create a Marker at the Center of the Map</button>
+      </div> -->
+
+
+   </body>
+</html>
